@@ -10,10 +10,7 @@
 # prefer.
 import os
 import sys
-data_dir = r'D:\osgeopy-data'
-# data_dir =
-
-
+data_dir = r'E:\osgeopy-code\osgeopy-data'
 
 ##########################  3.2 Introduction to OGR  ##########################
 

@@ -9,7 +9,8 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-env/
+.venv/
+.vscode/
 bin/
 build/
 develop-eggs/
@@ -54,3 +55,4 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+osgeopy-data/

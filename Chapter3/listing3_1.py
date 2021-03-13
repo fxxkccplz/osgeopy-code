@@ -5,12 +5,16 @@ import sys
 from osgeo import ogr
 
 # Open the data source and get the layer
-fn = r'D:\osgeopy-data\global\ne_50m_populated_places.shp'
+fn = r'E:\osgeopy-code\osgeopy-data\global\ne_50m_populated_places.shp'
 ds = ogr.Open(fn, 0)
+# ogr.Open()第二个变量设置为0，将以只读方式打开
 if ds is None:
     sys.exit('Could not open {0}.'.format(fn))
 lyr = ds.GetLayer(0)
 
+# ds:数据源
+# lyr:图层
+# feat:要素
 i = 0
 for feat in lyr:
 

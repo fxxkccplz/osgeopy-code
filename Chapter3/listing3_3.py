@@ -5,7 +5,7 @@ import sys
 from osgeo import ogr
 
 # Open the folder dataa source for writing
-ds = ogr.Open(r'D:\osgeopy-data\global', 1)
+ds = ogr.Open(r'E:\osgeopy-code\osgeopy-data\global', 1)
 if ds is None:
     sys.exit('Could not open folder.')
 
